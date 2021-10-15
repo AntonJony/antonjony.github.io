@@ -1,12 +1,12 @@
 User-agent:Yandex
 Disallow: /Admin
 Disallow: *?page=
-Sitemap: https://Bat_caẶT/sitemap.xml
+Sitemap: https://antonjony.github.io//sitemap.xml
 User-agent:googlebot
 Disallow: /Admin
 Disallow: *?page=
-Sitemap: https://baw_cat/sitemap.xml
+Sitemap: https://antonjony.github.io//sitemap.xml
 User-agent:*
 Disallow: /Admin
 Disallow: *?page=
-Sitemap: https://Bau_caMT/sitemap.xml
+Sitemap: https://antonjony.github.io//sitemap.xml
