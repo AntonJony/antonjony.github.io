@@ -40,7 +40,7 @@ body{
 		background: #d2d0d2;
 		margin-block: -20px;
 		width: 900px;
-		height: 4090px;
+		height: 4155px;
 			
 	}
 		.text1	{
@@ -54,6 +54,9 @@ body{
 			.pt	{
 				text-align: center;
 				font-size: 35px;
+			}
+			.tt {
+				text-align: center;
 			}
 		.text2	{
 			border: 4px double black;
@@ -87,15 +90,28 @@ body{
 			.i5	{
 				text-align: center;
 			}
-	#footer{
-		background: #838283;
-		height: 220px;
-		width: 900px;
-		background-image: url();
-		background-size: 900px 260px;
-		background-repeat: no-repeat;
-		overflow: hidden;
+	.footer {
 		display: flex;
-		text-align: center;
-	}
-		
+		flex-direction: column;
+		align-items: center;
+		background-color: rgb(102, 102, 102);
+		width: 900px;
+		height: 280px;
+		}
+		.text	{
+			font-size: 30px;
+		}
+		.end {
+			display: flex;
+			align-items: center;
+			background-color: rgb(102, 102, 102);
+			margin: 0;
+			font-size: 20px;
+			list-style-type: none;
+			padding: 0;	
+		}
+			
+		.end-list:not(:last-child) {
+			margin-right: 300px;
+		}
+					
