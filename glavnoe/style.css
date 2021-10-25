@@ -57,6 +57,7 @@ body{
 			}
 			.tt {
 				text-align: center;
+				font-size: 18px;
 			}
 		.text2	{
 			border: 4px double black;
@@ -109,9 +110,11 @@ body{
 			font-size: 20px;
 			list-style-type: none;
 			padding: 0;	
+			text-align: center;
 		}
 			
 		.end-list:not(:last-child) {
 			margin-right: 300px;
+			text-align: center;
 		}
 					
