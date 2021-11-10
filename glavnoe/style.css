@@ -40,7 +40,7 @@ body{
 		background: #d2d0d2;
 		margin-block: -20px;
 		width: 100%;
-		height: 4450px;
+		height: 4675px;
 			
 	}
 		.text1	{
@@ -49,6 +49,8 @@ body{
 			margin: 20px;
 		}
 			.i1	{
+				display: block;
+				width: 500px;
 				text-align: center;
 			}
 			.pt	{
@@ -65,6 +67,7 @@ body{
 			margin: 50px;
 		}
 			.i2	{
+				display: block;
 				text-align: center;
 			}
 		.text3	{
@@ -73,6 +76,7 @@ body{
 			margin: 50px;
 		}
 			.i3	{
+				display: block;
 				text-align: center;
 			}
 		.text4	{
@@ -81,7 +85,8 @@ body{
 			margin: 50px;
 		}
 			.i4	{
-			text-align: center;
+				display: block;
+				text-align: center;
 			}
 		.text5	{
 			border: 4px double black;
@@ -89,6 +94,7 @@ body{
 			margin: 20px;
 		}
 			.i5	{
+				display: block;
 				text-align: center;
 			}
 	.footer {
@@ -107,7 +113,7 @@ body{
 			align-items: center;
 			background-color: rgb(102, 102, 102);
 			margin: 0;
-			font-size: 20px;
+			font-size: 18px;
 			list-style-type: none;
 			padding: 0;	
 			text-align: center;
