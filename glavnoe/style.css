@@ -40,18 +40,22 @@ body{
 		background: #d2d0d2;
 		margin-block: -20px;
 		max-width: 900px;
-		height: 4510px;
+		
 			
 	}
 		.text1	{
 			border: 4px double black;
-			padding: 40px;
+			padding: 6px;
 			margin: 20px;
 		}
 			.i1	{
 				text-align: center;
-				max-width: 500px
+				max-width:100%;
 			}
+				.png{
+					width:100%;
+					text-align: center;
+				}
 			.pt	{
 				text-align: center;
 				font-size: 35px;
@@ -62,25 +66,25 @@ body{
 			}
 		.text2	{
 			border: 4px double black;
-			padding: 20px;
-			margin: 50px;
+			padding: 6px;
+			margin: 20px;
 		}
 			
 		.text3	{
 			border: 4px double black;
-			padding: 20px;
-			margin: 50px;
+			padding: 6px;
+			margin: 20px;
 		}
 			
 		.text4	{
 			border: 4px double black;
-			padding: 20px;
-			margin: 50px;
+			padding: 6px;
+			margin: 20px;
 		}
 			
 		.text5	{
 			border: 4px double black;
-			padding: 40px;
+			padding: 6px;;
 			margin: 20px;
 		}
 			
@@ -100,7 +104,7 @@ body{
 			align-items: center;
 			background-color: rgb(102, 102, 102);
 			margin: 0;
-			font-size: 18px;
+			font-size: 12px;
 			list-style-type: none;
 			padding: 0;	
 			text-align: center;
@@ -110,11 +114,71 @@ body{
 			margin-right: 300px;
 			text-align: center;
 		}
-	@media(min-width: 1080px) and (max-width: 1284px){
+	@media (min-width: 320px){
 		#navigation{
-			word-spacing: 55px;
-			letter-spacing: 2px;
-			font-size: 25px;
+			word-spacing: 2px;
+			letter-spacing: 1px;
+			font-size: 22px;
+		}
+		.text1	{
+			border: 4px double black;
+			padding: 6px;
+			margin: 20px;
+		}
+			.i1	{
+				text-align: center;
+				
+			}
+			.pt	{
+				text-align: center;
+				font-size: 40px;
+			}
+			.tt {
+				text-align: justify;
+				font-size: 17px;
+			}
+		#content{
+			width: 100%
+			height: : auto;
+			
+		}
+	}
+	@media (min-width: 375px){
+		#navigation{
+			word-spacing: 2px;
+			letter-spacing: 1px;
+			font-size: 22px;
+		}
+		.text1	{
+			border: 4px double black;
+			padding: 6px;
+			margin: 20px;
+		}
+			.i1	{
+				text-align: center;
+				max-width: 170px
+			}
+			.pt	{
+				text-align: center;
+				font-size: 40px;
+			}
+			.tt {
+				text-align: center;
+				font-size: 17px;
+			}
+			
+		#content{
+			width: 100%
+			height: : auto;
+			
+		}
+
+	}
+	@media (min-width: 425px){
+		#navigation{
+			word-spacing: 2px;
+			letter-spacing: 1px;
+			font-size: 22px;
 		}
 		.text1	{
 			border: 4px double black;
@@ -123,7 +187,7 @@ body{
 		}
 			.i1	{
 				text-align: center;
-				width: 565px
+				max-width: 170px
 			}
 			.pt	{
 				text-align: center;
@@ -131,11 +195,42 @@ body{
 			}
 			.tt {
 				text-align: center;
-				font-size: 20px;
+				font-size: 17px;
 			}
 		#content{
 			width: 100%
 			height: : auto;
 			
 		}
+
+	}
+	@media (min-width: 768px){
+		#navigation{
+			word-spacing: 2px;
+			letter-spacing: 1px;
+			font-size: 22px;
+		}
+		.text1	{
+			border: 4px double black;
+			padding: 40px;
+			margin: 20px;
+		}
+			.i1	{
+				text-align: center;
+				max-width: 170px
+			}
+			.pt	{
+				text-align: center;
+				font-size: 40px;
+			}
+			.tt {
+				text-align: center;
+				font-size: 17px;
+			}
+		#content{
+			width: 100%
+			height: : auto;
+			
+		}
+
 	}
