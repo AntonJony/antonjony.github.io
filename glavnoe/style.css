@@ -18,7 +18,7 @@ body{
 		height: 200px;
 		max-width: 900px;
 		background-image: url(head.png);
-		
+
 		background-repeat: no-repeat;
 		margin-block: -25px;
 
@@ -34,14 +34,17 @@ body{
 		letter-spacing: 3px;
 		font-size: 25px;
 		text-decoration: none;
-			
+
 	}
 	#content{
 		background: #d2d0d2;
-		margin-block: -20px;
+		margin-block: 20px;
 		max-width: 900px;
-		
-			
+
+
+	}
+	.v{
+		text-align: center;
 	}
 		.text	{
 			border: 4px double black;
@@ -61,12 +64,12 @@ body{
 				font-size: 35px;
 			}
 			.tt {
-				text-align: center;
+				text-align: justify;
 				font-size: 18px;
 			}
-			
-		
-			
+
+
+
 	.footer {
 		display: flex;
 		flex-direction: column;
@@ -85,44 +88,12 @@ body{
 			margin: 0;
 			font-size: 12px;
 			list-style-type: none;
-			padding: 0;	
+			padding: 0;
 			text-align: center;
 		}
-			
+
 		.end-list:not(:last-child) {
 			margin-right: 300px;
 			text-align: center;
 		}
-	
-	@media (min-width: 375px){
-		#navigation{
-			word-spacing: 2px;
-			letter-spacing: 1px;
-			font-size: 22px;
-		}
-		.text	{
-			border: 4px double black;
-			padding: 6px;
-			margin: 20px;
-		}
-			.i1	{
-				text-align: center;
-				max-width: 320px
-			}
-			.pt	{
-				text-align: center;
-				font-size: 40px;
-			}
-			.tt {
-				text-align: center;
-				font-size: 17px;
-			}
-			
-		#content{
-			width: 100%
-			height: : auto;
-			
-		}
 
-	}
-	
