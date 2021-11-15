@@ -1,0 +1,17 @@
+body{
+	background-image: url(404.png);
+	text-align: center;
+	font-family: Arial;
+}
+.fon {
+	
+}
+
+.text {
+	margin-block: 130px;
+    text-align: center ;
+    font: 30px sans-serif;
+}
+.text1	{
+	font-size: 35px;
+}
