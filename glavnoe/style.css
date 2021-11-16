@@ -51,12 +51,12 @@ body{
 			padding: 6px;
 			margin: 20px;
 		}
+			.o {
+				margin-left: 34%;
+			}
 			.i1	{
 				text-align: center;
 				max-width:100%;
-			}
-			.o {
-				margin-left: 34%;
 			}
 				.png{
 					width:100%;
